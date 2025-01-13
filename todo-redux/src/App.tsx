@@ -1,13 +1,14 @@
-
+import TodoInput from "./TodoInput";
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
       <div className="app-container">
-        <h1>App</h1>
+        <TodoInput />
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
